@@ -37,8 +37,9 @@ gsap.from(".card-left", {
 gsap.from(".card-center", {
   opacity: 0,
   y: 50, // Move from 50px below
-  duration: 2,
+  duration: 4,
   ease: "power2.out",
+  stagger: 0.3,
   scrollTrigger: {
     trigger: ".card-center",
     start: "top 80%",
@@ -116,3 +117,16 @@ tl.fromTo(
     ease: "none",
   }
 );
+
+gsap.from(".animate-zoom2", {
+  opacity: 0,
+  scale: 0.8,
+  duration: 3,
+  ease: "power2.out",
+  stagger: 0.5, // Each element will start 0.3 seconds after the previous one
+  scrollTrigger: {
+    trigger: ".animate-zoom2",
+    start: "top 80%",
+    toggleActions: "play none none none",
+  },
+});
