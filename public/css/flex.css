@@ -106,14 +106,14 @@
 @media screen and (max-width: 767px) {
   /* For Slide 1 */
   .ltn__slide-item[data-bs-bg$="1.png"] {
-    background-image: url("img/slider/mobile/1.png") !important;
+    background-image: url("/img/slider/mobile/1.png") !important;
   }
   /* For Slide 2 */
   .ltn__slide-item[data-bs-bg$="2.png"] {
-    background-image: url("img/slider/mobile/2.png") !important;
+    background-image: url("/img/slider/mobile/2.png") !important;
   }
   /* For Slide 3 */
   .ltn__slide-item[data-bs-bg$="3.png"] {
-    background-image: url("img/slider/mobile/3.png") !important;
+    background-image: url("/img/slider/mobile/3.png") !important;
   }
 }
